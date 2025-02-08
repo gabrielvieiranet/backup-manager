@@ -1,0 +1,3 @@
+# PostgreSQL dependencies
+psycopg2-binary==2.9.9  # Driver síncrono do PostgreSQL
+asyncpg==0.29.0  # Driver assíncrono do PostgreSQL

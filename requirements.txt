@@ -1,0 +1,36 @@
+# FastAPI e dependências
+fastapi==0.109.2
+uvicorn==0.27.1
+pydantic==1.10.13
+email-validator==2.1.0.post1
+
+# Banco de dados
+sqlalchemy==2.0.27
+alembic==1.13.1
+aiosqlite==0.19.0  # Para SQLite assíncrono
+
+# Segurança
+python-jose[cryptography]==3.3.0  # JWT tokens
+passlib[bcrypt]==1.7.4  # Hash de senhas
+python-multipart==0.0.9  # Upload de arquivos
+
+# Utilitários
+python-dateutil==2.8.2
+aiofiles==23.2.1
+humanize==4.9.0
+psutil==5.9.8
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Logging
+loguru==0.7.2
+
+# Dev tools
+black==24.1.1  # Formatação
+isort==5.13.2  # Ordenação de imports
+flake8==7.0.0  # Linting
+mypy==1.8.0  # Type checking
