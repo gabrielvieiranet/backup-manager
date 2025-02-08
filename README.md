@@ -1,3 +1,6 @@
+# backup-manager
+WIP: Projetinho para fazer backup de arquivos no windows server
+
 backup_manager/
 │
 ├── backend/                    # Backend API (FastAPI)
